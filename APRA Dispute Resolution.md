@@ -40,7 +40,7 @@ This default is related to the assumption that any input scenarios are concernin
 
 + `adi`: is NonApplicable if `covered-entity` is provided
 + `authorised-banking-NOHC": is NonApplicable if `covered-entity` is provided
-+ "covered-bond-special-purpose-vehicle": is NonApplicable if `covered-counterparty` is provided
++ `covered-bond-special-purpose-vehicle`: is NonApplicable if `covered-counterparty` is provided
 
 #### __au-foreign-corporations-act__
 + `foreign-corporation`: is NonApplicable if `foreign-covered-entity` is provided
@@ -53,10 +53,10 @@ This default is related to the assumption that any input scenarios are concernin
 + `general-insurer` : is NonApplicable if `covered-entity` is provided
 
 #### __au-life-insurance-act__
-+`eligible-foreign-life-insurance-company` : is NonApplicable if `covered-entity` is provided
-+`friendly-society` : is NonApplicable if `covered-entity` is provided
-+`life-company` : is NonApplicable if `covered-entity` is provided
-+`registered-life-NOHC` : is NonApplicable if `covered-entity` is provided
++ `eligible-foreign-life-insurance-company` : is NonApplicable if `covered-entity` is provided
++ `friendly-society` : is NonApplicable if `covered-entity` is provided
++ `life-company` : is NonApplicable if `covered-entity` is provided
++ `registered-life-NOHC` : is NonApplicable if `covered-entity` is provided
 
 #### __au-superannuation-industry-supervision-act__
 + `approved-deposit-fund` is NonApplicable if `covered-entity` is provided  ( or `registrable-superannuation-entity`)
